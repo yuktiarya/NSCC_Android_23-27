@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/Linearlayout">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btndark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dark"
+        android:layout_marginTop="25dp"
+        android:padding="15dp"
+        android:backgroundTint="#E91E63"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        android:layout_marginTop="25dp"
+        android:padding="15dp"
+        android:backgroundTint="#00BCD4"
+        />
+
+
+</LinearLayout>

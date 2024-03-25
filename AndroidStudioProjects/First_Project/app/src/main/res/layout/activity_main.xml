@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+
+    >
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/entry_image"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/material_motion_easing_linear"
+            android:src="@drawable/lotus" />
+
+    <ImageView
+
+        android:contentDescription="@string/material_motion_easing_linear"
+        android:id="@+id/entry_image2"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/flowers"/>
+
+    </LinearLayout>
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:backgroundTint="@color/white"
+            android:text="Lotus"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="100dp"
+            android:backgroundTint="@color/white"
+            android:text="Flowers"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:contentDescription="@string/material_motion_easing_linear"
+            android:id="@+id/entry_image3"
+            android:layout_height="match_parent"
+            android:layout_width="200dp"
+            android:src="@drawable/dahlia"
+           />
+
+        <ImageView
+
+            android:contentDescription="@string/material_motion_easing_linear"
+            android:id="@+id/entry_image4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/fj_luxury_flower"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:backgroundTint="@color/white"
+            android:text="Dahlia"
+            android:textColor="@color/black"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="100dp"
+            android:backgroundTint="@color/white"
+            android:text="fj_luxury_flower"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/entry_image6"
+
+            android:contentDescription="@string/material_motion_easing_linear"
+            android:layout_height="match_parent"
+            android:layout_width="200dp"
+            android:src="@drawable/marigold"/>
+
+
+        <ImageView
+            android:id="@+id/image5"
+            android:contentDescription="@string/material_motion_easing_linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/violet"/>
+
+    </LinearLayout>
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:text="Sunflower"
+            android:backgroundTint="@color/white"
+            />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="100dp"
+            android:backgroundTint="@color/white"
+            android:text="Flower"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
