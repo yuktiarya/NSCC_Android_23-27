@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/office">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="306dp"
+        android:layout_height="415dp"
+        app:cardBackgroundColor="#B22B2D30"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/loginlogo">
+
+        </ImageView>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Email or Username        "
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:textColorHint="#DDD0D5"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="115dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Password           "
+            android:inputType="textPassword"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:textColorHint="#DDD0D5"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="120dp">
+
+        </EditText>
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/email">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginLeft="81dp"
+            android:layout_marginTop="168dp"
+            android:src="@drawable/password">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:text="forgot password ?"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:layout_marginTop="210dp"
+            android:layout_marginLeft="185dp">
+
+        </TextView>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="250dp"
+            android:text="Male   "
+            android:textColor="#DDD0D5">
+
+        </RadioButton>
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female "
+        android:textColor="#DDD0D5"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="117dp"
+        >
+
+    </RadioButton>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="250dp"
+            android:text="Others  "
+            android:textColor="#DDD0D5">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="197dp"
+            android:text="Remember me "
+            android:textStyle="italic"
+            android:textColor="@color/white">
+
+        </RadioButton>
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:text="SIGN IN"
+            android:layout_marginTop="302dp"
+            android:layout_marginLeft="30dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:text="SIGN UP"
+            android:layout_marginTop="302dp"
+            android:layout_marginLeft="180dp">
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account ?  "
+            android:textColor="#DDD0D5"
+            android:layout_marginTop="385dp"
+            android:layout_marginLeft="50dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signup now   "
+            android:textColor="#04D9F4"
+            android:layout_marginTop="385dp"
+            android:layout_marginLeft="200dp">
+
+        </TextView>
+
+
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
