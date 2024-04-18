@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Secondactivity"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Areas of Devlopment"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/AndroidButton"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:text="Android App Devlopment"
+            android:layout_marginLeft="7dp"
+            android:textSize="17dp"
+            android:backgroundTint="#78C7D1"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/WebButton"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:text="Web devlopment"
+            android:layout_marginTop="10dp"
+            android:textSize="17dp"
+
+            android:backgroundTint="#78C7D1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/IosButton"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:text="Ios App Devlopment"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="7dp"
+            android:textSize="17dp"
+            android:backgroundTint="#78C7D1"
+
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/MachineButton"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:text="Machine Learning"
+            android:layout_marginTop="18dp"
+            android:textSize="17dp"
+
+            android:backgroundTint="#78C7D1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BlockButton"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:text="Block Chain Devlopment"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="7dp"
+            android:textSize="17dp"
+
+            android:backgroundTint="#78C7D1"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/AIButton"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:text="Artificial Intelligence"
+            android:layout_marginTop="7dp"
+            android:textSize="17dp"
+
+            android:backgroundTint="#78C7D1"/>
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/contectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contect Us"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"/>
+
+
+
+</LinearLayout>
